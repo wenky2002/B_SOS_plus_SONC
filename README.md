@@ -10,9 +10,9 @@ This is MATLAB implementation of B-SOS+SONC for
 
 ## Files
 
-boundedMinSOSpSONC.m -- Main solver
-constSONC.m 
-newtonPolytope.m
-partitions.m
+- boundedMinSOSpSONC.m 
+- constSONC.m 
+- newtonPolytope.m
+- partitions.m
 
-## Citation
+
