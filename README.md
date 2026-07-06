@@ -10,7 +10,7 @@ This method combines the Bounded-Sum-of-Squares (B-SOS) and Sums of Nonnegative 
 
 - MATLAB R2019b or later
 - [YALMIP](https://yalmip.github.io/)
-- An SDP solver, e.g. [MOSEK](https://www.mosek.com/) or [SeDuMi](http://sedumi.ie.lehigh.nl/)
+- An SDP solver, e.g. [MOSEK](https://www.mosek.com/) or [SeDuMi](https://sedumi.ie.lehigh.edu/)
 
 ## Files
 | File | Description |
