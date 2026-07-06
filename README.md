@@ -13,12 +13,9 @@ This method combines the Bounded-Sum-of-Squares (B-SOS) and Sums of Nonnegative 
 - An SDP solver, e.g. [MOSEK](https://www.mosek.com/) or [SeDuMi](http://sedumi.ie.lehigh.nl/)
 
 ## Files
-
-- boundedSOSpSONC.m
-  Main routine constructing and solving the B-SOS+SONC relaxation 
-- constSONC.m
-  Builds the SONC (circuit polynomial) constraints
-- newtonPolytope.m
-  Computes the Newton polytope of the input polynomial
-- partitions.m
-  Generates exponent partitions used in the relaxation
+| File | Description |
+|---|---|
+| `boundedSOSpSONC.m` | Main routine constructing and solving the B-SOS+SONC relaxation |
+| `constSONC.m` | Builds the SONC (circuit polynomial) constraints |
+| `newtonPolytope.m` | Computes the Newton polytope of the input polynomial |
+| `partitions.m` | Generates exponent partitions used in the relaxation |
