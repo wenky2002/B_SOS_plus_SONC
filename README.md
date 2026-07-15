@@ -2,7 +2,7 @@
 
 MATLAB implementation of the **B-SOS+SONC** hierarchy for constrained polynomial optimization problems (CPOPs) of the form
 
-$$\min f(x) \quad \text{s.t.} \quad 0 \leq g_i(x) \leq 1.$$
+$$\min f(x) \quad \text{s.t.} \quad a \leq g_i(x) \leq b.$$
 
 This method combines the Bounded-Sum-of-Squares (B-SOS) and Sums of Nonnegative Circuit polynomials (SONC) decompositions to yield tighter semidefinite programming (SDP) relaxations than B-SOS alone, while preserving computational tractability.
 
