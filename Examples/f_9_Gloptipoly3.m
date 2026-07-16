@@ -1,6 +1,6 @@
 %% This is f9 in Table 1 by using Gloptipoly3
 mpol x y 
-f = 0.5*(1 + 2*x*y +x^2*y)^2 + x^4*y^2 + x^2*y^4 + 1 - 3*x^2*y^2;
+f = 0.5*(1 + 2*x*y +x^2*y)^2 + 2*(x^4*y^2 + x^2*y^4 + 1 - 3*x^2*y^2);
 g1 = x;
 g2 = y;
 g3 = x^2 + y^2;
