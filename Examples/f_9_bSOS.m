@@ -2,14 +2,14 @@
 yalmip('clear')
 clc;clear all;
 
-% objective function f  = 0.5(1+2xy+x^2y)^2 + m;
-pop.F = [0 0 1.5;
-         1 1 2;
-         2 1 1;
-         2 2 -1;
+% objective function f  = 0.5(1+2xy+x^2y)^2 + 2m;
+pop.F = [2 4 2;
+         4 2 2.5;
          3 2 2;
-         4 2 1.5;
-         2 4 1];
+         2 2 -4;
+         2 1 1;
+         1 1 2;
+         0 0 2.5];
 pop.n = 2;
 
 % variables in objective function
@@ -27,7 +27,7 @@ results = struct('k', {}, 'obj', {});
 
 % k and d
 pop.k = 3;
-pop.d = 4;
+pop.d = 5;
 
 % total timing start 
 t_total = tic;
