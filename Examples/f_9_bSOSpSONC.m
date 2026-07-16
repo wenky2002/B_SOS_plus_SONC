@@ -8,14 +8,14 @@ vecVar = [x y];
 
 % objective function        
 m = x^4*y^2 + x^2*y^4 + 1 - 3*x^2*y^2;
-f = 0.5*(1 + 2*x*y + x^2*y)^2 + m;
+f = 0.5*(1 + 2*x*y + x^2*y)^2 + 2*m;
 
 % constraint polynomials 
 gList = {x,y,x^2+y^2};          % g1 = x ,   g2 = y
 
 % relaxation orders 
 k = 3;         % SOS half-degree   (2k = 6)
-d = 3;          % multiplier degree
+d = 5;          % multiplier degree
 
 % total timing start 
 t_total = tic;
