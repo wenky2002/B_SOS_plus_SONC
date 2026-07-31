@@ -21,4 +21,4 @@ This method combines the Bounded-Sum-of-Squares (B-SOS) and Sums of Nonnegative 
 | `partitions.m` | Generates exponent partitions used in the relaxation |
 
 ## Examples
-The examples in this repository are based on the paper *"A Bounded Degree SOS Plus SONC Hierarchy for Polynomial Optimization."* See [Link here] for the full paper.
+The examples in this repository are based on the paper *"A Bounded Degree SOS Plus SONC Hierarchy for Polynomial Optimization" by Mareike Dressler and Qi Wang. * See [Link here] for the full paper.
