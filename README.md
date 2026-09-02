@@ -17,8 +17,8 @@ The certificate cone used in the new hierarchy is the recently introduced SOS+SO
 | File | Description |
 |---|---|
 | `boundedSOSpSONC.m` | Main routine constructing and solving the B-SOS+SONC relaxation |
-| `constSONC.m` | Builds the SONC (circuit polynomial) constraints |
-| `newtonPolytope.m` | Computes the Newton polytope of the input polynomial |
+| `constSONC.m` | Builds the SONC (circuit polynomial) constraints adapted from [Schick's SOS+SONC toolbox](https://github.com/schick-moritz/SOS_plus_SONC_toolbox) |
+| `newtonPolytope.m` | Computes the Newton polytope of the input polynomial, adapted from [Schick's SOS+SONC toolbox](https://github.com/schick-moritz/SOS_plus_SONC_toolbox)|
 | `partitions.m` | Generates exponent partitions used in the relaxation |
 
 ## Examples
