@@ -22,5 +22,5 @@ The certificate cone used in the new hierarchy is the recently introduced SOS+SO
 | `partitions.m` | Generates exponent partitions used in the relaxation |
 
 ## Examples
-The examples in this repository are based on the paper "A Bounded Degree SOS Plus SONC Hierarchy for Polynomial Optimization" by Mareike Dressler and Qi Wang. 
-See [Link here] for the full paper.
+The examples in this repository are based on the paper ["A Bounded Degree SOS Plus SONC Hierarchy for Polynomial Optimization"](https://arxiv.org/abs/2609.25954) by Mareike Dressler and Qi Wang. 
+
